@@ -1,4 +1,4 @@
-//LED turned off initially, once button is pushed LED lights up and stays on -> button pushed again, LED turns off.
+//LED is off initially, once button is pushed LED lights up and stays on -> button pushed again, LED turns off.
 
 enum STATE {INIT, NEXT_STATE} gState = INIT;
 char buttonPressed = 0;
