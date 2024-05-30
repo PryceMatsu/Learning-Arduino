@@ -1,4 +1,5 @@
-//Initially starts with red LED on, when button is pressed -> cycle to green LED (toggle on), when button is pressed -> cycle to yellow LED (toggle on), button pressed cycle to red...
+//Initially starts with red LED on, when button is pressed -> cycle to green LED (toggle on)
+//when button is pressed -> cycle to yellow LED (toggle on), button pressed cycle to red and so on...
 
 enum STATE {RED, GREEN, YELLOW} gState = RED;
 char buttonPressed = 0;
